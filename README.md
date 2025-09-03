@@ -1,5 +1,7 @@
 # safecrypt (Windows CLI)
 
+TLDR- its so simple a whale can use it. Just give the file name and it encrypts or decrypts automatically. That is it !! 
+
 **Atomic, data-safe, single-argument file encrypt/decrypt** using **XChaCha20‑Poly1305** (libsodium Secretstream).  
 Runs on Windows, writes to a temporary file, `fsync`s, then atomically swaps using **`ReplaceFileW(REPLACEFILE_WRITE_THROUGH)`**.  
 It **decides automatically** whether to encrypt or decrypt based on a file **magic header**, and it **never double‑encrypts**.
