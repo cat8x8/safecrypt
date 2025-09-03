@@ -1,6 +1,6 @@
 
 
-TLDR- its so simple a whale can use it. Just give the file name and it encrypts or decrypts automatically. Key is hard coded at compile time. Static links to libsodium- a well tested crypto lib !! 
+TLDR- its so simple a whale can use it. Just give the file name and it encrypts or decrypts automatically. Key is hard coded at compile time. Static link to libsodium- (a well vetted crypto lib) so you do not have to install libsodium !! 
 
 # safecrypt (Windows CLI)
 
